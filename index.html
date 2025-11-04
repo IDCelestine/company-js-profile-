@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Sibu & Ike</h1>
+  </header>
+
+  <section id="company-info">
+    <!-- Company details will be inserted here -->
+  </section>
+
+  <section id="jobs">
+    <h2>Job Openings</h2>
+
+    <!-- Skill Filter -->
+    <label for="skill-filter">Filter by Skill:</label>
+    <input type="text" id="skill-filter" placeholder="e.g., JavaScript">
+
+    <div id="job-list">
+      <!-- Job roles will be inserted here -->
+    </div>
+
+    <!-- Form to Add Job -->
+    <h3>Add New Job</h3>
+    <form id="job-form">
+      <input type="text" id="job-title" placeholder="Job Title" required>
+      <input type="text" id="job-desc" placeholder="Job Description" required>
+      <input type="text" id="job-skills" placeholder="Skills (comma separated)" required>
+      <button type="submit">Add Job</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
