@@ -7,14 +7,9 @@ const myCompany = {
   employeeCount: 5,
   jobs: [
     {
-      title: "Interaction Engineer",
+      title: "IT Project Manager",
       description: "Join our supportive team focused on user experience.",
       skills: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      title: "Frontend Developer",
-      description: "Develop modern web interfaces with a collaborative approach.",
-      skills: ["HTML", "CSS", "React"]
     },
     {
       title: "Frontend Developer",
